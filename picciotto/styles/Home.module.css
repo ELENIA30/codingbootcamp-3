@@ -8,7 +8,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: lightseagreen;
   text-decoration: none;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background:lightgoldenrodyellow;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -58,7 +58,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid lightseagreen;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
@@ -67,8 +67,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: lightseagreen;
+  border-color: lightseagreen;
 }
 
 .card h2 {

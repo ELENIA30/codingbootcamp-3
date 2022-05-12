@@ -3,12 +3,23 @@
 
 .wrapper {
   h1 {
-    color: $primary_color;
+    color:lightseagreen;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+
+  h6 {
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 60px;
+    padding-right: 40px;
+    font-size: medium;
+    padding-bottom: auto;
   }
 
   .nav {
     padding: 10px 40px;
-    border-bottom: 2px solid $grey;
+    border-bottom: 2px solid lightseagreen;
+    background-color: lightyellow;
 
     a {
       @include flex();
@@ -16,6 +27,13 @@
   }
 
   .footer {
-    height: 50px;
+    height: 100px;
+    color: lightseagreen;
+    background-color:lightyellow;
+    display: flex;
+    justify-content: center;
+    padding-top:50px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
   }
 }

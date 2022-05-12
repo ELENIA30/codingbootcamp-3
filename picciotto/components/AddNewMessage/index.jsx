@@ -39,7 +39,7 @@ const AddNewMessage = ({ reloadData, setReloadData }) => {
           value={userInput}
           onChange={(e) => setUserInput(e.target.value)}
         />
-
+        
         <input type="submit" value="Invia" />
       </form>
     </div>
